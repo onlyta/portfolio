@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url("./lucida_sans_unicode.ttf") format('ttf');
+}
+
+body {
+    background-color: #3399CC;
+    width: 100%;
+    min-height: 100vh;
+    border: 23px solid #2B81AC;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1166px;
+    margin: 37px auto;
+}
+
+.header,
+.main {
+    margin-bottom: 35px;
+}
+
+.header {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.title>.wi {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    margin-left: 4px;
+}
+
+.tab {
+    font-size: 0;
+    box-sizing: border-box;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.tab:hover .tab__cell:not(.tab__cell:hover) {
+    opacity: 0.6;
+}
+
+.tab__cell {
+    display: inline-block;
+    height: 147px;
+    box-sizing: border-box;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all .2s ease-in;
+}
+
+.tab__cell .content {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.content__cityName {
+    margin-bottom: 4px;
+}
+
+.main .content__weather>.wi {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 61px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 9px;
+
+}
+
+.tab__cell:first-child,
+.tab__cell:nth-child(9) {
+    width: 50%;
+}
+
+.tab__cell:nth-child(-n+8):not(:first-child),
+.tab__cell:nth-child(10) {
+    width: 25%;
+}
+
+.tab__cell:nth-child(11) {
+    width: 100%;
+}
+
+.tab__cell:nth-child(1) {
+    background-color: rgb(51, 153, 204);
+}
+
+.tab__cell:nth-child(2) {
+    background-color: rgb(51, 204, 204);
+}
+
+.tab__cell:nth-child(3) {
+    background-color: rgb(153, 102, 153);
+}
+
+.tab__cell:nth-child(4) {
+    background-color: rgba(194, 71, 71);
+}
+
+.tab__cell:nth-child(5) {
+    background-color: rgba(226, 103, 74);
+}
+
+.tab__cell:nth-child(6) {
+    background-color: rgba(255, 204, 102);
+}
+
+.tab__cell:nth-child(7) {
+    background-color: rgba(153, 204, 153);
+}
+
+.tab__cell:nth-child(8) {
+    background-color: rgba(102, 153, 153);
+}
+
+.tab__cell:nth-child(9) {
+    background-color: rgba(204, 102, 153);
+}
+
+.tab__cell:nth-child(10) {
+    background-color: rgba(51, 153, 102);
+}
+
+.tab__cell:nth-child(11) {
+    background-color: rgba(102, 102, 153);
+}
+
+.footer {
+    font-size: 16px;
+    line-height: 19px;
+}
